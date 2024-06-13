@@ -4,12 +4,12 @@
   "description": "",
   "main": "server.js",
   "engines": {
-    "node": "20.0.0",
+    "node": "19.0.0",
     "npm": "7.4.3"
   },
   "scripts": {
     "client-install": "npm install --prefix client",
-    "build":"cd client && npm run build",
+    "build":"cd client && react-scripts build",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
