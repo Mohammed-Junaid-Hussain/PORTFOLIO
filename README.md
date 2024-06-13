@@ -33,7 +33,7 @@ This is a portfolio website where I demonstrate my projects, skills, and experie
   - React
   - Redux (for state management)
   - React Router (for navigation)
-  - CSS/SCSS (for styling)
+  - Tailwind CSS (for styling)
 
 - **Backend:**
   - Node.js
@@ -48,4 +48,4 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mern-portfolio.git
+   git clone https://github.com/Mohammed-Juniad-Hussain/PORTFOLIO
