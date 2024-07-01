@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import SectionTitle from "../../components/SectionTitle";
 
 function Experiences() {
-  const [selectedItemIndex , setSelectedItemIndex] = React.useState(0);
+  const [selectedItemIndex, setSelectedItemIndex] = React.useState(0);
   const { portfolioData } = useSelector((state) => state.root);
   const { experiences } = portfolioData;
   return (
@@ -32,7 +32,7 @@ function Experiences() {
             </div>
           ))}
         </div>
-
+        
         <div className="flex flex-col gap-5">
           <h1 className="text-secondary text-xl">
             {experiences[selectedItemIndex].title}
@@ -41,10 +41,7 @@ function Experiences() {
             {experiences[selectedItemIndex].company}
           </h1>
           <p className="text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            expedita accusantium nulla ad odio quisquam consequuntur laudantium
-            saepe ratione consectetur optio necessitatibus ut, impedit ducimus
-            corrupti ullam veniam error non.
+            {experiences[selectedItemIndex].description}
           </p>
         </div>
       </div>

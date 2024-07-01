@@ -67,7 +67,7 @@ function AdminProjects() {
     <div>
       <div className="flex justify-end">
         <button
-          className="bg-primary px-5 py-2 text-white"
+          className="bg-tertiary px-5 py-2 text-white"
           onClick={() => {
             setSelectedItemForEdit(null);
             setShowAddEditModal(true);
@@ -79,14 +79,14 @@ function AdminProjects() {
       <div className="grid grid-cols-3 gap-5 mt-5 sm:grid-cols-1">
         {projects.map((project) => (
           <div className="shadow border p-5 border-gray-400 flex flex-col gap-5">
-            <h1 className="text-primary text-xl font-bold">{project.title}</h1>
+            <h1 className="text-tertiary text-xl font-bold">{project.title}</h1>
             <hr />
             <img src={project.image} alt="" className="h-60 w-80" />
             <h1>Role : {project.title}</h1>
             <h1>{project.description}</h1>
             <div className="flex justify-end gap-5 mt-5">
               <button
-                className="bg-red-500 text-white px-5 py-2 "
+                className="bg-red-500 text-blackpx-5 py-2 "
                 onClick={() => {
                   onDelete(project);
                 }}
@@ -94,7 +94,7 @@ function AdminProjects() {
                 Delete
               </button>
               <button
-                className="bg-primary text-white px-5 py-2"
+                className="bg-tertiary text-blackpx-5 py-2"
                 onClick={() => {
                   setSelectedItemForEdit(project);
                   setShowAddEditModal(true);
@@ -146,7 +146,7 @@ function AdminProjects() {
 
             <div className="flex justify-end">
               <button
-                className="border-primary text-primary px-5 py-2"
+                className="border-tertiary text-tertiary px-5 py-2"
                 onClick={() => {
                   setShowAddEditModal(false);
                   setSelectedItemForEdit(null);
@@ -154,7 +154,7 @@ function AdminProjects() {
               >
                 Cancel
               </button>
-              <button className="bg-primary text-white px-5 py-2">
+              <button className="bg-tertiary text-blackpx-5 py-2">
                 {selectedItemForEdit ? "Update" : "Add"}
               </button>
             </div>

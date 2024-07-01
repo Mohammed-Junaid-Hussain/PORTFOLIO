@@ -7,7 +7,7 @@ function About() {
   const { about } = portfolioData;
   const { skills, lottieURL, description1, description2 } = about;
   return (
-    <div>
+    <div> 
       <SectionTitle title="About" />
 
       <div className="flex w-full items-center sm:flex-col">

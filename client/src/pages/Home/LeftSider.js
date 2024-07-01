@@ -20,7 +20,7 @@ function LeftSider() {
           </a>
           <a href={Final_Resume}>
             {""}
-          <i class="ri-survey-line  text-gray-400 text-2xl sm:text-xs lg:text-4xl"></i>
+          <i class="ri-file-paper-2-line text-gray-400 text-2xl sm:text-xs lg:text-4xl"></i>
           </a>
         </div>
         <div className="w-[1px] h-32 bg-[#125f63] sm:hidden"></div>
