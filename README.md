@@ -55,7 +55,7 @@ To run this project locally, follow these steps:
    cd server
    nodemon server
 3. Running Client
-   '''bash
+   ```bash
    cd Client
    npm run 
 
