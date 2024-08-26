@@ -49,3 +49,15 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Mohammed-Juniad-Hussain/PORTFOLIO
+
+2. Running Server==> Before running server change .env url to your mogourl 
+   ```bash
+   cd server
+   nodemon server
+3. Running Client
+   '''bash
+   cd Client
+   npm run 
+
+
+  
